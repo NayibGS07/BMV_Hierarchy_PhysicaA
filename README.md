@@ -1,5 +1,7 @@
 # BMV hierarchical dependence pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22032020.svg)](https://doi.org/10.5281/zenodo.22032020)
+
 Reproducibility package for the manuscript **“Common backbone, different topology: Triangulating dependence representations in the Mexican equity market”**, prepared for *Physica A: Statistical Mechanics and its Applications*.
 
 ## Scope
@@ -36,7 +38,15 @@ Because third-party source data are excluded, a future rerun may differ slightly
 
 ## Citation and archival release
 
-The intended archival workflow is GitHub release `v1.0.0` → Zenodo GitHub integration → Zenodo DOI. The manuscript should cite the resulting software DOI after the release is archived. `CITATION.cff` is included so GitHub and Zenodo can ingest citation metadata without a competing `.zenodo.json` file.
+Release `v1.0.0` is permanently archived in Zenodo.
+
+**DOI:** [10.5281/zenodo.22032020](https://doi.org/10.5281/zenodo.22032020)
+
+Recommended citation:
+
+> García Sabag, O. N., & Aguilar Arteaga, V. A. (2026). *BMV hierarchical dependence pipeline* (v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22032020
+
+The repository also includes `CITATION.cff` so GitHub and compatible citation tools can expose the software metadata.
 
 ## License
 
