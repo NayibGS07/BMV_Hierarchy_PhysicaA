@@ -1,0 +1,9 @@
+bmv_outputs/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.venv/
+venv/

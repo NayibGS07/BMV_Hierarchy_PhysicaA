@@ -1,0 +1,4 @@
+NTL,APL_topo,APL_weighted,Diameter_topo,Diameter_weighted,Assortativity,Degree_entropy,Method,N_nodes,N_edges,Hub,Hub_degree,Hub_tied,Betw_leader,Betw_max,Dist_min,Dist_max
+0.749824,4.2655,3.1725,8,5.9984,-0.4772,1.678,symbolic,35,34,GFINBURO.MX,7,False,GFINBURO.MX,0.6239,0.6656,0.7915
+1.152124,3.2336,3.6843,6,7.0207,-0.3928,1.4694,mantegna,35,34,GFNORTEO.MX,10,True,GFNORTEO.MX,0.7879,0.8075,1.3208
+1.182641,3.6672,4.2785,8,9.2114,-0.3341,1.632,spearman,35,34,GFINBURO.MX,10,False,GFINBURO.MX,0.7718,0.9044,1.3216

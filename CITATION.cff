@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release identified in the associated Zenodo record."
+title: "BMV hierarchical dependence pipeline"
+type: software
+version: 1.0.0
+authors:
+  - given-names: "Omar Nayib"
+    family-names: "García Sabag"
+    affiliation: "Universidad Autónoma de Querétaro"
+    orcid: "https://orcid.org/0009-0009-3405-1467"
+  - given-names: "Víctor Antonio"
+    family-names: "Aguilar Arteaga"
+    affiliation: "Universidad Autónoma de Querétaro"
+repository-code: "https://github.com/NayibGS07/BMV_Hierarchy_PhysicaA"
+keywords:
+  - econophysics
+  - minimum spanning tree
+  - hierarchical clustering
+  - Mexican equity market
+  - symbolic dynamics
+  - MRQAP
+
+license: MIT
