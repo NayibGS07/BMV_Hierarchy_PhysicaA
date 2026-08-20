@@ -1,0 +1,2 @@
+N_nodes,Max_degree,Mean_degree,Degree_entropy,Primary_null_model,Primary_N_null_reps,Primary_null_max_degree_mean,pval_max_degree_primary_holm,pval_entropy_primary_holm,Rejects_random_tree,Secondary_null_model,Secondary_N_null_reps,pval_max_degree_secondary_holm,pval_entropy_secondary_holm,Rejects_uniform_labeled_tree
+35,10,1.94,1.632,empirical random-MST null (circular_shift data),1000,4.694,0.001998,0.033966,True,uniform random labeled tree (Pruefer sequence MC) -- combinatorial baseline only,10000,0.0002,0.10329,True

@@ -6,14 +6,14 @@ Reproducibility package for the manuscript **“Common backbone, different topol
 
 The analysis uses a fixed ex-post candidate panel of 38 BMV issues and a realized universe of 35 issues after the manuscript's data-availability rules. It triangulates three dependence representations—Mantegna/Pearson distance, Spearman distance, and symbolic regime synchronization—and compares their minimum spanning trees, hierarchical structure, statistical significance, robustness, and rolling network integration.
 
-The public package intentionally focuses on the code and derived research outputs needed to audit the article. Development-history notes, version/fix comments, notebook execution outputs, local absolute paths, duplicate intermediate plots, raw market prices, and copies of third-party index documents have been removed.
+The public package intentionally focuses on the code and derived research outputs needed to audit the article. Development-history notes, version/fix comments, notebook execution outputs, local absolute paths, duplicate intermediate plots, raw market prices, copies of third-party index documents, and derived manuscript figure files have been removed. The figures can be regenerated from the notebook and archived result tables.
 
 ## Repository contents
 
-- `BMV_Hierarchy_PhysicaA.ipynb` — cleaned publication notebook.
+- `BMV_Hierarchy_PhysicaA.ipynb` — lightweight cleaned publication notebook.
+- `src/` — cleaned code split by logical notebook cell and executed sequentially by the notebook.
 - `requirements.txt` — environment used for reproduction; exact versions are pinned where recorded by the original run manifest.
 - `results/` — curated derived tables that support the main manuscript claims.
-- `figures/` — the seven manuscript figures in vector PDF format with embedded fonts.
 - `provenance/analysis_manifest.json` — sanitized configuration/environment manifest.
 - `provenance/source_checksums.csv` — SHA-256 checksums for excluded local source files.
 - `data/README.md` — data access and redistribution rationale.
@@ -40,4 +40,4 @@ The intended archival workflow is GitHub release `v1.0.0` → Zenodo GitHub inte
 
 ## License
 
-No software license has been asserted in this preparation copy. The repository owner should choose the intended code license before the public `v1.0.0` release. A permissive license such as MIT or BSD-3-Clause is common for research software, but that choice grants legal reuse rights and should be made by the authors.
+The original code in this repository is released under the MIT License. Third-party market data and exchange/index documents are not included and remain subject to their respective providers' terms. See `LICENSE` and `data/README.md`.

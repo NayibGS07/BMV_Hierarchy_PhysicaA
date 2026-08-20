@@ -1,0 +1,12 @@
+# Versions recorded by the archived analysis manifest when available.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+networkx==3.2.1
+matplotlib==3.9.4
+yfinance==1.2.0
+# The original manifest recorded availability but not the exact versions of
+# these two packages. Compatible ranges are therefore declared explicitly.
+statsmodels>=0.14,<0.15
+tqdm>=4.66,<5
+jupyter>=1.0,<2

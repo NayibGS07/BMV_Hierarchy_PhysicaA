@@ -1,0 +1,4 @@
+Method,N_ranks,Sig_permutation,Sig_circular_shift,Agreement_pct
+symbolic,34,34,34,100.0
+mantegna,34,34,34,100.0
+spearman,34,34,34,100.0

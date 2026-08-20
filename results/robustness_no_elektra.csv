@@ -1,0 +1,4 @@
+Method,N_nodes,Hub,Hub_degree,NTL,Jaccard_vs_full,Skipped_reason
+symbolic,35,,,,,ELEKTRA.MX not in analyzed universe (see data_provenance.csv)
+mantegna,35,,,,,ELEKTRA.MX not in analyzed universe (see data_provenance.csv)
+spearman,35,,,,,ELEKTRA.MX not in analyzed universe (see data_provenance.csv)
