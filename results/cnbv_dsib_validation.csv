@@ -1,9 +1,9 @@
 Institution,CNBV_ISL_category,Listed_ticker,In_study_universe
 BBVA Mexico,IV,(not separately listed),False
 Santander Mexico,III,(not separately listed),False
-Banorte,III,GFNORTEO.MX,True
-Banamex (Citigroup),I,(not separately listed),False
+Banorte,II,GFNORTEO.MX,True
+Inbursa,I,GFINBURO.MX,True
+Banamex,I,(not separately listed),False
 Scotiabank Mexico,I,(not separately listed),False
 Citi Mexico,I,(not separately listed),False
 HSBC Mexico,I,(not separately listed),False
-Inbursa,I,GFINBURO.MX,True
