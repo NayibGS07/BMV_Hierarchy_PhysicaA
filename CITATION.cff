@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the archived release identified in the associated Zenodo record."
+message: "If you use this software, please cite the archived v1.1.0 release."
 title: "BMV hierarchical dependence pipeline"
 type: software
 version: 1.1.0
 date-released: 2026-08-21
+doi: "10.5281/zenodo.22047513"
 authors:
   - given-names: "Omar Nayib"
     family-names: "García Sabag"
