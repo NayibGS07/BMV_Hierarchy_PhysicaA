@@ -1,8 +1,12 @@
 # Article-to-repository crosswalk
 
-This file maps the manuscript **“Common backbone, different topology: Triangulating dependence representations in the Mexican equity market”** to the reproducibility artifacts prepared for release `v1.1.0`.
+This file maps the frozen manuscript **“Common backbone, different topology: Triangulating dependence representations in the Mexican equity market”** to the reproducibility artifacts prepared for release `v1.1.0`.
 
-The final manuscript SHA-256 is **pending the last text-only manuscript corrections**. It will be written to `provenance/frozen_manuscript_sha256.txt` immediately before the release is tagged.
+Frozen manuscript SHA-256:
+
+`46a6c49720c6a1dc9c134856a65b7178586fc4f8494d1c453960ca9b2d0f74cc`
+
+The manuscript PDF itself is not redistributed here. The hash is recorded in `provenance/frozen_manuscript_sha256.txt`.
 
 ## Main manuscript elements
 
