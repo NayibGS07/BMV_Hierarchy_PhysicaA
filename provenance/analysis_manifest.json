@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "config": {
     "tickers_candidate": [
       "ASURB.MX",
@@ -111,53 +111,25 @@
     "q_high": 0.6666666666666666,
     "min_obs_symbol": 30,
     "symbolic_dist_type": "nominal",
-    "windows": [
-      120,
-      240,
-      360,
-      480
-    ],
+    "windows": [120, 240, 360, 480],
     "gd_normalize": true,
-    "rolling_symbol_mode": [
-      "strict",
-      "inwindow"
-    ],
+    "rolling_symbol_mode": ["strict", "inwindow"],
     "n_link_mc": 1000,
     "n_gd_mc": 2000,
-    "ci_links": [
-      0.025,
-      0.975
-    ],
-    "ci_gd": [
-      0.05,
-      0.95
-    ],
+    "ci_links": [0.025, 0.975],
+    "ci_gd": [0.05, 0.95],
     "mc_max_attempts_factor": 5,
     "mc_null_model": "permutation",
     "seed": 42,
     "block_size_bootstrap": null,
-    "hub_stability_windows": [
-      120,
-      240,
-      480
-    ],
-    "edge_perturbation_ks": [
-      1,
-      5,
-      10,
-      20,
-      50
-    ],
+    "hub_stability_windows": [120, 240, 480],
+    "edge_perturbation_ks": [1, 5, 10, 20, 50],
     "edge_perturbation_replicas": 100,
     "out_dir": "bmv_outputs",
     "dpi": 300
   },
   "seed": 42,
-  "methods": [
-    "symbolic",
-    "mantegna",
-    "spearman"
-  ],
+  "methods": ["symbolic", "mantegna", "spearman"],
   "packages": {
     "python": "3.9.10",
     "numpy": "2.0.2",
@@ -171,6 +143,7 @@
   },
   "out_dir": "bmv_outputs",
   "notes": [
-    "Original run did not record exact statsmodels/tqdm versions; requirements.txt declares compatible ranges."
+    "The archived manuscript run did not record exact statsmodels/tqdm version strings; requirements.txt declares compatible ranges.",
+    "v1.1.0 consolidates the frozen outputs and manuscript-aligned public pipeline without redistributing third-party raw market data."
   ]
 }
