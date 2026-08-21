@@ -18,6 +18,12 @@ This release consolidates the repository against the frozen Physica A manuscript
 
 Raw Yahoo Finance prices and third-party exchange/index documents are not redistributed. See `data/README.md` and `provenance/source_checksums.csv`.
 
-## Archival workflow
+## Zenodo archive
 
-After this commit is tagged/released as `v1.1.0`, create a new Zenodo version from that GitHub release. Do not alter or overwrite the archived `v1.0.0` record.
+The historical `v1.0.0` archive remains unchanged at DOI `10.5281/zenodo.22032020`.
+
+This manuscript-aligned `v1.1.0` release is archived as a new Zenodo version at:
+
+**DOI:** `10.5281/zenodo.22047513`
+
+**Record:** https://zenodo.org/records/22047513
