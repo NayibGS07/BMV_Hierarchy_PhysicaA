@@ -1,2 +1,2 @@
-PENDING_FINAL_MANUSCRIPT_FREEZE
-The SHA-256 of the final post-edit manuscript PDF will be recorded here immediately before tagging release v1.1.0.
+SHA256  BMV_Topology (2).pdf
+46a6c49720c6a1dc9c134856a65b7178586fc4f8494d1c453960ca9b2d0f74cc
