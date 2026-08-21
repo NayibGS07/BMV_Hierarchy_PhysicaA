@@ -1,0 +1,4 @@
+SHA256  BMV_Topology (4).pdf
+7494a7f6faeee54c2f59114413c29fd2b2161db4433f3442765095d0edab9085
+
+This is the final submission manuscript after insertion of the Zenodo v1.1.0 DOI (10.5281/zenodo.22047513). The archived v1.1.0 reproducibility release preserves the immediately pre-DOI manuscript hash separately in frozen_manuscript_sha256.txt; scientific content, figures, tables, methods, and reported results are unchanged.
