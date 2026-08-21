@@ -1,2 +1,2 @@
-SHA256  BMV_Physica_A_LaTeX_project_corrected__2_ (1).pdf
-66b3322fd04e3b74b8f96ae496a1beef27c28c7677e4a25a6ddd8f46cf99ae48
+PENDING_FINAL_MANUSCRIPT_FREEZE
+The SHA-256 of the final post-edit manuscript PDF will be recorded here immediately before tagging release v1.1.0.
