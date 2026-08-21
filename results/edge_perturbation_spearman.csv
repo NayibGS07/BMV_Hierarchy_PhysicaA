@@ -1,0 +1,6 @@
+k_perturbed,N_replicas,Jaccard_mean,Jaccard_std,Jaccard_min,Jaccard_q25,Jaccard_median,Jaccard_q75,Method
+1,100,0.9777,0.0279,0.9429,0.9429,1.0,1.0,spearman
+5,100,0.9058,0.055,0.7436,0.8889,0.8889,0.9429,spearman
+10,100,0.8262,0.0697,0.6585,0.7895,0.8378,0.8889,spearman
+20,100,0.6835,0.078,0.4783,0.619,0.7,0.7436,spearman
+50,100,0.4201,0.0762,0.2593,0.36,0.4167,0.4783,spearman

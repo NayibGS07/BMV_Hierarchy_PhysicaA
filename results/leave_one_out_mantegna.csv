@@ -1,0 +1,6 @@
+Excluded_ticker,Method,Original_degree,New_hub,New_hub_degree,New_NTL,Jaccard_vs_original_backbone
+GFINBURO.MX,mantegna,10,GFNORTEO.MX,10,1.161345,0.7273
+GFNORTEO.MX,mantegna,10,GFINBURO.MX,14,1.15833,0.7273
+GAPB.MX,mantegna,5,GFINBURO.MX,11,1.165615,0.8788
+CEMEXCPO.MX,mantegna,4,GFINBURO.MX,11,1.15649,0.9091
+BIMBOA.MX,mantegna,3,GFNORTEO.MX,10,1.154959,0.9394

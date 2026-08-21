@@ -1,0 +1,35 @@
+Link,Ticker_i,Sector_i,Ticker_j,Sector_j,Distance,Same_sector
+1,ASURB.MX,Airports,GAPB.MX,Airports,0.807473,True
+2,GAPB.MX,Airports,OMAB.MX,Airports,0.83958,True
+3,GCARSOA1.MX,Conglomerate,GFINBURO.MX,Financial,1.01673,False
+4,GFINBURO.MX,Financial,GFNORTEO.MX,Financial,1.084686,True
+5,GFNORTEO.MX,Financial,RA.MX,Financial,1.090926,True
+6,BIMBOA.MX,Consumer,GFINBURO.MX,Financial,1.130115,False
+7,GAPB.MX,Airports,PINFRA.MX,Infrastructure,1.133849,False
+8,GMEXICOB.MX,Materials,PE&OLES.MX,Materials,1.144052,True
+9,CEMEXCPO.MX,Materials,GFNORTEO.MX,Financial,1.144936,False
+10,GAPB.MX,Airports,GFNORTEO.MX,Financial,1.145292,False
+11,GAPB.MX,Airports,VOLARA.MX,Transport,1.148163,False
+12,GFINBURO.MX,Financial,SIGMAFA.MX,Consumer,1.148322,False
+13,CEMEXCPO.MX,Materials,TLEVISACPO.MX,Telecom,1.150465,False
+14,ALSEA.MX,Consumer,GFNORTEO.MX,Financial,1.153962,False
+15,CEMEXCPO.MX,Materials,GMEXICOB.MX,Materials,1.154568,True
+16,GFINBURO.MX,Financial,LIVEPOLC-1.MX,Retail,1.15465,False
+17,GFNORTEO.MX,Financial,ORBIA.MX,Materials,1.162087,False
+18,GENTERA.MX,Financial,GFNORTEO.MX,Financial,1.162386,True
+19,GFNORTEO.MX,Financial,VESTA.MX,Real Estate,1.165701,False
+20,FEMSAUBD.MX,Consumer,GFNORTEO.MX,Financial,1.167353,False
+21,CEMEXCPO.MX,Materials,GCC.MX,Materials,1.168414,True
+22,BIMBOA.MX,Consumer,GRUMAB.MX,Consumer,1.180846,True
+23,GFNORTEO.MX,Financial,WALMEX.MX,Consumer,1.182454,False
+24,ALPEKA.MX,Materials,SIGMAFA.MX,Consumer,1.18342,False
+25,AC.MX,Consumer,BIMBOA.MX,Consumer,1.194841,True
+26,GFINBURO.MX,Financial,KIMBERA.MX,Consumer,1.200682,False
+27,CHDRAUIB.MX,Consumer,GFINBURO.MX,Financial,1.203453,False
+28,BOLSAA.MX,Financial,RA.MX,Financial,1.211172,True
+29,GFINBURO.MX,Financial,LACOMERUBC.MX,Consumer,1.232531,False
+30,Q.MX,Financial,RA.MX,Financial,1.23834,True
+31,MEGACPO.MX,Telecom,TLEVISACPO.MX,Telecom,1.240366,True
+32,HERDEZ.MX,Consumer,LIVEPOLC-1.MX,Retail,1.245559,False
+33,GFINBURO.MX,Financial,LABB.MX,Health Care,1.264038,False
+34,AMXB.MX,Telecom,GFINBURO.MX,Financial,1.320798,False

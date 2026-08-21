@@ -1,0 +1,6 @@
+Excluded_ticker,Method,Original_degree,New_hub,New_hub_degree,New_NTL,Jaccard_vs_original_backbone
+GFINBURO.MX,symbolic,7,CEMEXCPO.MX,6,0.751964,0.8182
+GAPB.MX,symbolic,6,GFINBURO.MX,9,0.753334,0.8485
+GFNORTEO.MX,symbolic,6,GFINBURO.MX,7,0.750963,0.8485
+CEMEXCPO.MX,symbolic,5,GFINBURO.MX,9,0.75103,0.8788
+BIMBOA.MX,symbolic,4,GFINBURO.MX,8,0.750647,0.9091

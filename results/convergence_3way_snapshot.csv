@@ -1,0 +1,4 @@
+Pair,Same_node_set,N_common_nodes,Jaccard,Corr_matrices,Hub_mantegna,Hub_symbolic,Hubs_match,Corr_NTL_rolling,Hub_spearman
+mantegna vs symbolic,True,35,0.4167,0.8996,GFNORTEO.MX (g=10),GFINBURO.MX (g=7),False,,
+mantegna vs spearman,True,35,0.7,0.9569,GFNORTEO.MX (g=10),,False,,GFINBURO.MX (g=10)
+spearman vs symbolic,True,35,0.5111,0.9454,,GFINBURO.MX (g=7),True,,GFINBURO.MX (g=10)

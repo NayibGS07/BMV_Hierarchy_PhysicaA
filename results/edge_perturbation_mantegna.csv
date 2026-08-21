@@ -1,0 +1,6 @@
+k_perturbed,N_replicas,Jaccard_mean,Jaccard_std,Jaccard_min,Jaccard_q25,Jaccard_median,Jaccard_q75,Method
+1,100,0.9806,0.0271,0.9429,0.9429,1.0,1.0,mantegna
+5,100,0.9251,0.0528,0.7895,0.8889,0.9429,0.9429,mantegna
+10,100,0.8302,0.0634,0.6585,0.7895,0.8378,0.8889,mantegna
+20,100,0.7062,0.0793,0.5455,0.6585,0.7,0.7436,mantegna
+50,100,0.4635,0.0793,0.283,0.4167,0.4468,0.5111,mantegna

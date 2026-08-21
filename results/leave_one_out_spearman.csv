@@ -1,0 +1,6 @@
+Excluded_ticker,Method,Original_degree,New_hub,New_hub_degree,New_NTL,Jaccard_vs_original_backbone
+GFINBURO.MX,spearman,10,CEMEXCPO.MX,6,1.191039,0.7273
+GFNORTEO.MX,spearman,7,GFINBURO.MX,12,1.187326,0.8182
+BIMBOA.MX,spearman,4,GFINBURO.MX,10,1.18649,0.9091
+CEMEXCPO.MX,spearman,4,GFINBURO.MX,11,1.187603,0.9091
+GAPB.MX,spearman,4,GFINBURO.MX,10,1.193328,0.9091
