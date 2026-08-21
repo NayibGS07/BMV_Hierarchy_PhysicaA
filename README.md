@@ -1,10 +1,10 @@
 # BMV hierarchical dependence pipeline
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22032020.svg)](https://doi.org/10.5281/zenodo.22032020)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22047513.svg)](https://doi.org/10.5281/zenodo.22047513)
 
 Reproducibility package for the manuscript **“Common backbone, different topology: Triangulating dependence representations in the Mexican equity market”**, prepared for *Physica A: Statistical Mechanics and its Applications*.
 
-This repository is being consolidated as **v1.1.0**, the manuscript-aligned reproducibility release. The historical `v1.0.0` release remains immutable and permanently archived at Zenodo under DOI [10.5281/zenodo.22032020](https://doi.org/10.5281/zenodo.22032020).
+The manuscript-aligned reproducibility release is **v1.1.0**, archived at Zenodo under DOI [10.5281/zenodo.22047513](https://doi.org/10.5281/zenodo.22047513). The historical `v1.0.0` release remains immutable and permanently archived under DOI [10.5281/zenodo.22032020](https://doi.org/10.5281/zenodo.22032020).
 
 ## Scope
 
@@ -34,11 +34,11 @@ The snapshot analysis compares the three primary dependence representations thro
 
 ## Frozen manuscript alignment
 
-The manuscript version audited against this package has SHA-256:
+The manuscript version audited immediately before archival DOI insertion has SHA-256:
 
 `46a6c49720c6a1dc9c134856a65b7178586fc4f8494d1c453960ca9b2d0f74cc`
 
-The manuscript PDF itself is not redistributed here. See `provenance/frozen_manuscript_sha256.txt` and `ARTICLE_CROSSWALK.md`.
+The final submission manuscript may differ at the byte level only through bibliographic/availability metadata updated after Zenodo assigned the `v1.1.0` DOI. The manuscript PDF itself is not redistributed here. See `provenance/frozen_manuscript_sha256.txt` and `ARTICLE_CROSSWALK.md`.
 
 The exact manuscript figure sources are archived in `figures/`; the corresponding numerical sources are preserved in `results/`. This is important because future downloads from upstream market-data providers may differ if historical adjusted prices or ticker availability are revised.
 
@@ -82,7 +82,11 @@ Historical release `v1.0.0` is permanently archived in Zenodo:
 
 ### v1.1.0
 
-`v1.1.0` is the manuscript-aligned consolidated release. After the GitHub tag/release is created, it should be archived as a **new Zenodo version** rather than modifying the `v1.0.0` archive. The version-specific DOI will be added here once Zenodo assigns it.
+The manuscript-aligned consolidated release is permanently archived in Zenodo:
+
+**DOI:** [10.5281/zenodo.22047513](https://doi.org/10.5281/zenodo.22047513)
+
+> García Sabag, O. N., & Aguilar Arteaga, V. A. (2026). *BMV hierarchical dependence pipeline* (v1.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22047513
 
 ## License
 
