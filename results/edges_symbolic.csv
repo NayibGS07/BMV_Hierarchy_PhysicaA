@@ -1,0 +1,35 @@
+Link,Ticker_i,Sector_i,Ticker_j,Sector_j,Distance,Same_sector
+1,ASURB.MX,Airports,GAPB.MX,Airports,0.665611,True
+2,GAPB.MX,Airports,OMAB.MX,Airports,0.683307,True
+3,GCARSOA1.MX,Conglomerate,GFINBURO.MX,Financial,0.717389,False
+4,GFINBURO.MX,Financial,GFNORTEO.MX,Financial,0.729636,True
+5,CEMEXCPO.MX,Materials,TLEVISACPO.MX,Telecom,0.735314,False
+6,GMEXICOB.MX,Materials,PE&OLES.MX,Materials,0.741437,True
+7,CEMEXCPO.MX,Materials,ORBIA.MX,Materials,0.742899,True
+8,BIMBOA.MX,Consumer,GFINBURO.MX,Financial,0.743629,False
+9,CEMEXCPO.MX,Materials,GMEXICOB.MX,Materials,0.744115,True
+10,GAPB.MX,Airports,PINFRA.MX,Infrastructure,0.744601,False
+11,GCARSOA1.MX,Conglomerate,ORBIA.MX,Materials,0.747025,False
+12,CEMEXCPO.MX,Materials,GAPB.MX,Airports,0.747509,False
+13,GFNORTEO.MX,Financial,RA.MX,Financial,0.749925,True
+14,PINFRA.MX,Infrastructure,SIGMAFA.MX,Consumer,0.751851,False
+15,GFNORTEO.MX,Financial,WALMEX.MX,Consumer,0.752332,False
+16,FEMSAUBD.MX,Consumer,GAPB.MX,Airports,0.752572,False
+17,GAPB.MX,Airports,VOLARA.MX,Transport,0.753053,False
+18,BIMBOA.MX,Consumer,KIMBERA.MX,Consumer,0.753533,True
+19,BIMBOA.MX,Consumer,GRUMAB.MX,Consumer,0.754253,True
+20,CHDRAUIB.MX,Consumer,GFINBURO.MX,Financial,0.756168,False
+21,ALPEKA.MX,Materials,ORBIA.MX,Materials,0.758079,True
+22,CEMEXCPO.MX,Materials,GCC.MX,Materials,0.758079,True
+23,ALSEA.MX,Consumer,GFNORTEO.MX,Financial,0.758317,False
+24,GCARSOA1.MX,Conglomerate,GENTERA.MX,Financial,0.758317,False
+25,GFINBURO.MX,Financial,LIVEPOLC-1.MX,Retail,0.759032,False
+26,GFNORTEO.MX,Financial,VESTA.MX,Real Estate,0.759509,False
+27,AC.MX,Consumer,BIMBOA.MX,Consumer,0.759985,True
+28,BOLSAA.MX,Financial,GFNORTEO.MX,Financial,0.768973,True
+29,GFINBURO.MX,Financial,Q.MX,Financial,0.769425,True
+30,MEGACPO.MX,Telecom,ORBIA.MX,Materials,0.771321,False
+31,GMEXICOB.MX,Materials,LACOMERUBC.MX,Consumer,0.771406,False
+32,HERDEZ.MX,Consumer,LACOMERUBC.MX,Consumer,0.771922,True
+33,GFINBURO.MX,Financial,LABB.MX,Health Care,0.772024,False
+34,AMXB.MX,Telecom,TLEVISACPO.MX,Telecom,0.791455,True

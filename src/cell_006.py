@@ -2,14 +2,14 @@
 
 @dataclass
 class Config:
-    # Fixed ex-post candidate universe U38: the 30-issue base panel used in
-    # the study design plus eight additional March-2026 S&P/BMV IPC
-    # constituents. Applying this 2026-informed panel to 2015-2025 creates
-    # a look-ahead selection/survivorship limitation for historical-market
-    # interpretation; historical composition notices are contextual evidence
-    # only and do not define U38.
+    # Fixed ex-post candidate universe U38 defined specifically for this study.
+    # It contains the 35 constituents of the March-2026 S&P/BMV IPC plus three
+    # additional BMV issuers with substantial trading history during the sample
+    # window (ALPEKA.MX, HERDEZ.MX, ELEKTRA.MX). Applying this 2026-informed
+    # panel to 2015-2025 creates a look-ahead selection/survivorship limitation
+    # for historical-market interpretation; historical composition notices are
+    # contextual evidence only and do not define the candidate universe.
     tickers_candidate: List[str] = field(default_factory=lambda: [
-        # --- 30-issue base panel ---
         "ASURB.MX","GAPB.MX","OMAB.MX",
         "BIMBOA.MX","GRUMAB.MX","KIMBERA.MX","WALMEX.MX",
         "ALSEA.MX","AC.MX","FEMSAUBD.MX","CHDRAUIB.MX","HERDEZ.MX",
@@ -19,7 +19,6 @@ class Config:
         "GMEXICOB.MX","PE&OLES.MX","GCC.MX","GCARSOA1.MX",
         "GFNORTEO.MX","GFINBURO.MX","GENTERA.MX","BOLSAA.MX",
         "VOLARA.MX","PINFRA.MX",
-        # --- eight additional March-2026 IPC constituents ---
         "BBAJIOO.MX","KOFUBL.MX","VESTA.MX","LABB.MX",
         "LACOMERUBC.MX","Q.MX","RA.MX","SIGMAFA.MX",
     ])
@@ -37,7 +36,6 @@ class Config:
         "GFNORTEO.MX":"Financial","GFINBURO.MX":"Financial",
         "GENTERA.MX":"Financial","BOLSAA.MX":"Financial",
         "VOLARA.MX":"Transport","PINFRA.MX":"Infrastructure",
-        # --- eight additional issuers (economic grouping informed by GICS) ---
         "BBAJIOO.MX":"Financial",     # GICS: Banks (regional bank, Banco del Bajio)
         "KOFUBL.MX":"Consumer",       # GICS: Consumer Staples > Beverages (Coca-Cola FEMSA)
         "VESTA.MX":"Real Estate",     # GICS: Real Estate Mgmt. & Development

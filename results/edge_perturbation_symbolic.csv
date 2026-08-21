@@ -1,0 +1,6 @@
+k_perturbed,N_replicas,Jaccard_mean,Jaccard_std,Jaccard_min,Jaccard_q25,Jaccard_median,Jaccard_q75,Method
+1,100,0.9789,0.0276,0.9429,0.9429,1.0,1.0,symbolic
+5,100,0.8823,0.0579,0.7436,0.8378,0.8889,0.9024,symbolic
+10,100,0.7904,0.0718,0.6585,0.7436,0.7895,0.8378,symbolic
+20,100,0.6354,0.0756,0.4468,0.5814,0.619,0.7,symbolic
+50,100,0.3349,0.0623,0.2143,0.3015,0.3333,0.36,symbolic

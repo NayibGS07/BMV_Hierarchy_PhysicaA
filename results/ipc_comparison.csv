@@ -1,0 +1,39 @@
+Ticker,Sector,In_universe,In_candidates,In_IPC,Note,Universe_vs_IPC_overlap_pct
+AC.MX,Consumer,True,True,True,,94.3
+ALPEKA.MX,Materials,True,True,False,"In universe, not in IPC",94.3
+ALSEA.MX,Consumer,True,True,True,,94.3
+AMXB.MX,Telecom,True,True,True,,94.3
+ASURB.MX,Airports,True,True,True,,94.3
+BBAJIOO.MX,Financial,False,True,True,"In IPC, excluded by coverage",94.3
+BIMBOA.MX,Consumer,True,True,True,,94.3
+BOLSAA.MX,Financial,True,True,True,,94.3
+CEMEXCPO.MX,Materials,True,True,True,,94.3
+CHDRAUIB.MX,Consumer,True,True,True,,94.3
+ELEKTRA.MX,Retail,False,True,False,Download failed (no data from any source) -- see log for details,94.3
+FEMSAUBD.MX,Consumer,True,True,True,,94.3
+GAPB.MX,Airports,True,True,True,,94.3
+GCARSOA1.MX,Conglomerate,True,True,True,,94.3
+GCC.MX,Materials,True,True,True,,94.3
+GENTERA.MX,Financial,True,True,True,,94.3
+GFINBURO.MX,Financial,True,True,True,,94.3
+GFNORTEO.MX,Financial,True,True,True,,94.3
+GMEXICOB.MX,Materials,True,True,True,,94.3
+GRUMAB.MX,Consumer,True,True,True,,94.3
+HERDEZ.MX,Consumer,True,True,False,"In universe, not in IPC",94.3
+KIMBERA.MX,Consumer,True,True,True,,94.3
+KOFUBL.MX,Consumer,False,True,True,"In IPC, excluded by coverage",94.3
+LABB.MX,Health Care,True,True,True,,94.3
+LACOMERUBC.MX,Consumer,True,True,True,,94.3
+LIVEPOLC-1.MX,Retail,True,True,True,,94.3
+MEGACPO.MX,Telecom,True,True,True,,94.3
+OMAB.MX,Airports,True,True,True,,94.3
+ORBIA.MX,Materials,True,True,True,,94.3
+PE&OLES.MX,Materials,True,True,True,,94.3
+PINFRA.MX,Infrastructure,True,True,True,,94.3
+Q.MX,Financial,True,True,True,,94.3
+RA.MX,Financial,True,True,True,,94.3
+SIGMAFA.MX,Consumer,True,True,True,,94.3
+TLEVISACPO.MX,Telecom,True,True,True,,94.3
+VESTA.MX,Real Estate,True,True,True,,94.3
+VOLARA.MX,Transport,True,True,True,,94.3
+WALMEX.MX,Consumer,True,True,True,,94.3

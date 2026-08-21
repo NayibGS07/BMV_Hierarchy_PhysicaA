@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the archived release identified in the associated Zenodo record."
 title: "BMV hierarchical dependence pipeline"
 type: software
-version: 1.0.0
+version: 1.1.0
+date-released: 2026-08-21
 authors:
   - given-names: "Omar Nayib"
     family-names: "García Sabag"
@@ -19,5 +20,4 @@ keywords:
   - Mexican equity market
   - symbolic dynamics
   - MRQAP
-
 license: MIT

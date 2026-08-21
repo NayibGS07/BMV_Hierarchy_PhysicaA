@@ -1,0 +1,35 @@
+Link,Ticker_i,Sector_i,Ticker_j,Sector_j,Distance,Same_sector
+1,ASURB.MX,Airports,GAPB.MX,Airports,0.904436,True
+2,GAPB.MX,Airports,OMAB.MX,Airports,0.956993,True
+3,GCARSOA1.MX,Conglomerate,GFINBURO.MX,Financial,1.050707,False
+4,GFINBURO.MX,Financial,GFNORTEO.MX,Financial,1.122006,True
+5,BIMBOA.MX,Consumer,GFINBURO.MX,Financial,1.144618,False
+6,CEMEXCPO.MX,Materials,TLEVISACPO.MX,Telecom,1.147968,False
+7,GMEXICOB.MX,Materials,PE&OLES.MX,Materials,1.150868,True
+8,CEMEXCPO.MX,Materials,GMEXICOB.MX,Materials,1.151329,True
+9,GAPB.MX,Airports,PINFRA.MX,Infrastructure,1.162693,False
+10,GFNORTEO.MX,Financial,RA.MX,Financial,1.163993,True
+11,GFINBURO.MX,Financial,SIGMAFA.MX,Consumer,1.170372,False
+12,CEMEXCPO.MX,Materials,GFNORTEO.MX,Financial,1.173121,False
+13,BIMBOA.MX,Consumer,GRUMAB.MX,Consumer,1.178577,True
+14,GFINBURO.MX,Financial,ORBIA.MX,Materials,1.180447,False
+15,GFINBURO.MX,Financial,PINFRA.MX,Infrastructure,1.181628,False
+16,CEMEXCPO.MX,Materials,GCC.MX,Materials,1.18874,True
+17,ASURB.MX,Airports,FEMSAUBD.MX,Consumer,1.197915,False
+18,GFINBURO.MX,Financial,LIVEPOLC-1.MX,Retail,1.200835,False
+19,GAPB.MX,Airports,VOLARA.MX,Transport,1.203762,False
+20,GFNORTEO.MX,Financial,WALMEX.MX,Consumer,1.205262,False
+21,GENTERA.MX,Financial,GFNORTEO.MX,Financial,1.206427,True
+22,AC.MX,Consumer,BIMBOA.MX,Consumer,1.209872,True
+23,ALSEA.MX,Consumer,GFNORTEO.MX,Financial,1.212186,False
+24,CHDRAUIB.MX,Consumer,GFINBURO.MX,Financial,1.213147,False
+25,BIMBOA.MX,Consumer,KIMBERA.MX,Consumer,1.2139,True
+26,ALPEKA.MX,Materials,SIGMAFA.MX,Consumer,1.215338,False
+27,GFNORTEO.MX,Financial,VESTA.MX,Real Estate,1.215594,False
+28,BOLSAA.MX,Financial,RA.MX,Financial,1.242834,True
+29,HERDEZ.MX,Consumer,LACOMERUBC.MX,Consumer,1.253247,True
+30,GFINBURO.MX,Financial,LACOMERUBC.MX,Consumer,1.256478,False
+31,MEGACPO.MX,Telecom,TLEVISACPO.MX,Telecom,1.265122,True
+32,GFINBURO.MX,Financial,LABB.MX,Health Care,1.272423,False
+33,Q.MX,Financial,RA.MX,Financial,1.275356,True
+34,AMXB.MX,Telecom,TLEVISACPO.MX,Telecom,1.321612,True

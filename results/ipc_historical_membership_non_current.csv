@@ -1,0 +1,4 @@
+Ticker,n_periods_present,n_periods_total,pct_periods_present,first_seen,last_seen,ever_constituent
+HERDEZ.MX,0,21,0.0,,,False
+ELEKTRA.MX,19,21,90.5,2015-09-01,2024-03-19,True
+ALPEKA.MX,6,21,28.6,2016-06-27,2019-03-19,True
