@@ -5,30 +5,36 @@ IPC_ALIAS_PATH = Path("provenance/ipc_issuer_aliases.csv")
 
 
 def _load_curated_ipc_history(path: Path = IPC_HISTORY_PATH):
-    """Load the derived long-form IPC composition history shipped with the
-    repository and convert it to the snapshot structure used by the turnover
-    routines. The history is derived from official BMV/MexDer notices; copies
-    of those third-party PDFs are intentionally not redistributed."""
+    """Load the compact IPC composition history shipped with the repository.
+
+    Each row represents one official composition snapshot and stores its
+    constituent tickers as a semicolon-delimited list. The table is derived
+    from official BMV/MexDer notices; copies of those third-party PDFs are
+    intentionally not redistributed.
+    """
     if not Path(path).exists():
         raise FileNotFoundError(
             f"Curated IPC composition history not found: {path}. "
             "See provenance/README.md and ARTICLE_CROSSWALK.md."
         )
     df = pd.read_csv(path)
-    required = {"effective_date", "source", "source_file", "n_tickers", "ticker"}
+    required = {"effective_date", "source", "source_file", "n_tickers", "tickers"}
     missing = required - set(df.columns)
     if missing:
         raise ValueError(f"IPC composition history missing columns: {sorted(missing)}")
     out = []
-    group_cols = ["effective_date", "source", "source_file", "n_tickers"]
-    for keys, grp in df.groupby(group_cols, sort=False):
-        date, source, source_file, n_tickers = keys
-        tickers = grp["ticker"].astype(str).tolist()
+    for _, row in df.iterrows():
+        tickers = [t for t in str(row["tickers"]).split(";") if t]
+        if len(tickers) != int(row["n_tickers"]):
+            raise ValueError(
+                f"IPC snapshot {row['effective_date']} declares {row['n_tickers']} "
+                f"tickers but contains {len(tickers)}."
+            )
         out.append({
-            "effective_date": str(date),
-            "source": str(source),
-            "source_file": str(source_file),
-            "n_tickers": int(n_tickers),
+            "effective_date": str(row["effective_date"]),
+            "source": str(row["source"]),
+            "source_file": str(row["source_file"]),
+            "n_tickers": int(row["n_tickers"]),
             "tickers": tickers,
         })
     return sorted(out, key=lambda x: x["effective_date"])
