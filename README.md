@@ -36,7 +36,7 @@ The snapshot analysis compares the three primary dependence representations thro
 
 The manuscript version audited against this package has SHA-256:
 
-`66b3322fd04e3b74b8f96ae496a1beef27c28c7677e4a25a6ddd8f46cf99ae48`
+`46a6c49720c6a1dc9c134856a65b7178586fc4f8494d1c453960ca9b2d0f74cc`
 
 The manuscript PDF itself is not redistributed here. See `provenance/frozen_manuscript_sha256.txt` and `ARTICLE_CROSSWALK.md`.
 
